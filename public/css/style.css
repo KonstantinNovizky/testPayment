@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    margin-left: 30px;
+    width: 50px;
+}
+
+#logotext {
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+}
+
+.end {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#front {
+    font-family: "Lucida Bright", Georgia, serif;
+}
+
+.color {
+    background-color: whitesmoke;
+}
+
+#button {
+    border-radius: 20px;
+}
+
+#button span {
+    background-color: #070a1b;
+}
+
+.container {
+    position: relative;
+    max-width: 100% !important;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Make the image responsive */
+.container img {
+    position: relative;
+    height: 89vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.container #curve {
+    position: absolute;
+    margin-top: -110px;
+    left: -70px;
+    background: #070a1b;
+    opacity: 0.6;
+    z-index: -1;
+    width: 600px;
+    height: 500px;
+    border-radius: 0% 28% 44% 0% / 10% 29% 66% 10%;
+}
+
+.container #text {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: whitesmoke;
+}
+
+#text a {
+    font-size: 25px;
+    margin-top: -150px;
+}
+
+#text p {
+    margin-left: 50px;
+}
+
+#content {
+    font-size: 18px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+#buton {
+    height: 100px;
+    background-color: #070a1b;
+    width: 100%;
+    padding: 0;
+}
+
+#buton button {
+    /*    margin-left: 200px;*/
+    border-radius: 20px;
+    margin: 30px;
+    justify-items: space-between;
+}
+
+#buton img {
+    z-index: 1;
+    height: 100px;
+    width: 120px;
+}
+
+#buton label {
+    z-index: 1;
+    color: wheat;
+}
+
+#inp {
+    width: 60px;
+}
+
+
+@media screen and (min-width: 642px) and (max-width: 1218px) {
+    .container img {
+        height: 1400px;
+    }
+
+
+    #navb {
+        height: 200px;
+    }
+
+    #logo {
+        margin-left: 30px;
+        width: 90px;
+    }
+
+    #logotext {
+        font-weight: bold;
+        color: black;
+        font-size: 55px;
+    }
+
+    .container #curve {
+        position: absolute;
+        margin-top: -110px;
+        left: -70px;
+        width: 900px;
+        height: 1100px;
+    }
+
+    .container #contentup {
+        font-size: 50px;
+    }
+
+    #buton {
+        height: 200px;
+    }
+
+    #content {
+        font-size: 40px;
+        margin: 0 0 0 70px;
+
+    }
+
+    #buton #footerinp {
+        margin-top: 80px;
+        width: 500px;
+        height: 80px;
+    }
+}
+
+
+/* banner */
+
+.banner-footer {
+    bottom: 0;
+}
+
+.banner {
+    /* min-height: calc(100vh - 113px); */
+    min-height: 100vh;
+    min-height: 82vh;
+    background-image: url('../images/pic.jpeg');
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.banner-footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+.banner-footer-center form .banner-footer-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.banner-footer-btn {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .banner-footer-center {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner-footer-center form .banner-footer-input {
+        width: auto !important;
+        padding: 1rem;
+    }
+
+    .banner-footer-btn {
+        margin-left: .3rem !important;
+        margin-right: .3rem !important;
+    }
+}
+
+@media screen and (max-width: 1220px) {}
+
+
+.banner #text ul li,
+.on-top {
+    position: relative;
+    z-index: 100;
+}

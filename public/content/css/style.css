@@ -1,0 +1,29 @@
+.header {
+    background-color: black;
+    height: 500px;
+
+}
+
+.header h3 {
+    color: rgb(138, 136, 133);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stock .img1 {
+    border-radius: 30px;
+    position: relative;
+}
+
+.stock .img2 {
+    top: 70px;
+    position: absolute;
+    left: 70px;
+    border-radius: 30px;
+    width: 50%;
+    height: 300px;
+}
+
+.header h1 {
+    color: rgb(138, 136, 133);
+    font-family: 'Courier New', Courier, monospace;
+}

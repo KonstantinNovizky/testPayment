@@ -1,0 +1,129 @@
+/* styling for navigation */
+.navbar-nav a{
+    font-size:20px;
+    color:white !important;
+}
+.navbar-nav a:hover{
+   
+}
+.pricingTable-second{
+    color: #3DB3D9;
+    background: linear-gradient(to bottom,#3DB3D9,#7C7AE8);
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.pricingTable-first{
+    /* color: #3DB3D9;
+    background: linear-gradient(to bottom,#3DB3D9,#7C7AE8); */
+    font-family: 'Maven Pro', sans-serif;
+    background-color: red !important;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.yellow .yellow-header{
+    background: #fff;
+    padding: 10px 0 10px;
+    margin: 0 0 10px;
+}
+.yellow .title{
+    font-size: 24px;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.yellow .yellow-value{
+    color: #fff;
+    text-shadow: 0 0 8px rgba(0,0,0,0.3);
+    margin: 0 0 25px;
+}
+.yellow .yellow-value .amount{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 65px;
+}
+.yellow .yellow-value .amount-sm{
+    vertical-align: top;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.yellow .yellow-value .duration{
+    font-size: 14px;
+    display: block;    
+}
+.yellow .yellow-content{
+    padding: 20px;
+    margin: 0 0 25px;
+    list-style: none;
+    border: 4px solid #fff;
+    border-radius: 25px;
+    display: inline-block;
+}
+.yellow .yellow-content li{
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 0 0 0px;
+    margin: 0 0 15px;
+    position: relative;
+}
+/* .pricingTable .pricing-content li:last-child{ margin-bottom: 0; } */
+/* .pricingTable .pricing-content li:before{
+    content: "\f00c";
+    color: #fff;
+    background: #5dbb54;
+    font-family: "Font Awesome 5 Free";
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 23px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+} */
+/* .pricingTable .pricing-content li.disable:before{
+    content: "\f00d";
+    background: #bb5057;
+} */
+.yellow .yellow-signup{
+    background: #fff;
+    padding: 10px 0 10px;
+}
+.yellow .yellow-signup a{
+    color: #3DB3D9;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.yellow .yellow-signup a:hover{
+    text-shadow: -4px 4px 1px rgba(0,0,0,0.1);
+    letter-spacing: 3px;
+}
+.yellow.yellow{
+    /* color: #30ACC6;
+    background: linear-gradient(to bottom,#30ACC6,#E3E76C); */
+    background-color: #0089ff !important;
+}
+ul li span{
+    padding-right:10px;
+} 
+ul li span i{
+    color:green;
+}
+.yellow.yellow .pricingTable-signup a{ color: #30ACC6; }
+@media only screen and (max-width: 1200px){
+    .yellow{ margin: 0; }
+}
+@media only screen and (max-width: 990px){
+    .yellow{ margin-bottom: 40px; }
+}

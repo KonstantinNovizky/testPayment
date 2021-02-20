@@ -1,0 +1,38 @@
+.font-size-1rem {
+    font-size: 1rem !important;
+}
+
+
+
+.login-page-previous-btn {
+    width: 50px;
+    position: fixed;
+
+}
+
+.login-page-logo {
+    width: 180px;
+
+}
+
+@media screen and (max-width: 1366px) {
+    .login-page-logo {
+        width: 120px;
+    }
+
+    .login-page-previous-btn {
+        width: 28px;
+    }
+
+    .footer-center {
+        width: 60%;
+    }
+
+
+
+}
+
+.footer-center form input[type='name'],
+.footer-center form input[type='email'] {
+    width: auto !important;
+}

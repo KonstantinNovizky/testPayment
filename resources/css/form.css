@@ -1,0 +1,46 @@
+section{
+    
+   
+    
+}
+.form-group .custom-first{
+    width: 77%;
+}
+.form-group .custom {
+    height:35px;
+    margin: 0px;
+    width:90%;
+   
+}
+.form-group label{
+    margin: 0px;
+    font-size: 12px;
+    padding: 0px;
+}
+.form-group{
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 600px){
+    .form-group .custom-first{
+        width: 100%;
+    }
+    .form-group .custom {
+        height:35px;
+        margin: 0px;
+        width:100%;
+       
+    }
+    #info{
+        width: 100%;
+        ;
+        /* text-align: center; */
+        
+    }
+    #info .text-right{
+        text-align: right !important;
+        margin-bottom:;
+    }
+    .last-row .col-md-6 a{
+        width: 100%;
+    }
+}
